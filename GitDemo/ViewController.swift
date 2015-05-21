@@ -14,6 +14,8 @@ class ViewController: UIViewController {
 
     var another: Int?
     
+    var anothertwo: Int?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
