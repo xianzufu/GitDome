@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     var sum: Int?
 
+    var another: Int?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
