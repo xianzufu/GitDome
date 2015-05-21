@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var sum: Int?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -18,6 +20,12 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+        
+        var a = 5
+        var b = 10
+        self.sum = a + b
+        
+        println(" sum \(self.sum)")
     }
 
 
